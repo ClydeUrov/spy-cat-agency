@@ -2,38 +2,6 @@
 
 A full-stack web application for managing spy cats, missions, and targets. Built with FastAPI backend and Next.js frontend.
 
-## 🏗️ Project Structure
-
-\`\`\`
-spy-cat-agency/
-├── backend/                 # FastAPI backend
-│   ├── main.py             # Main FastAPI application
-│   ├── database.py         # Database models and configuration
-│   ├── schemas.py          # Pydantic schemas for API validation
-│   └── requirements.txt    # Python dependencies
-├── frontend/               # Next.js frontend
-│   ├── app/               # Next.js 14 app directory
-│   │   ├── layout.tsx     # Root layout
-│   │   ├── page.tsx       # Home page (Spy Cats management)
-│   │   ├── missions/      # Missions page (placeholder)
-│   │   └── globals.css    # Global styles
-│   ├── components/        # React components
-│   │   ├── SpyCatForm.tsx
-│   │   ├── SpyCatList.tsx
-│   │   ├── LoadingSpinner.tsx
-│   │   └── ErrorAlert.tsx
-│   ├── lib/              # Utility libraries
-│   │   ├── api.ts        # API client functions
-│   │   └── utils.ts      # Utility functions
-│   ├── types/            # TypeScript type definitions
-│   │   └── index.ts
-│   ├── package.json      # Node.js dependencies
-│   ├── tsconfig.json     # TypeScript configuration
-│   ├── tailwind.config.js # Tailwind CSS configuration
-│   ├── postcss.config.js # PostCSS configuration
-│   └── next.config.js    # Next.js configuration
-└── README.md             # This file
-\`\`\`
 
 ## 🚀 Quick Start
 
