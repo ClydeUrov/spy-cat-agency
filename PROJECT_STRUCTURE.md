@@ -2,7 +2,7 @@
 
 ## Clean Separation: Backend + Frontend
 
-\`\`\`
+```text
 spy-cat-agency/
 ├── backend/                    # 🐍 FastAPI Backend
 │   ├── main.py                # FastAPI app with all endpoints
@@ -36,7 +36,7 @@ spy-cat-agency/
 ├── README.md                   # Main project documentation
 ├── SETUP_INSTRUCTIONS.md       # Quick setup guide
 └── PROJECT_STRUCTURE.md        # This file
-\`\`\`
+```
 
 ## ✅ Issues Fixed
 
