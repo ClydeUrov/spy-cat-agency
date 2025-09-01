@@ -3,15 +3,15 @@
 ## Quick Start Guide
 
 ### 1. Project Structure
-\`\`\`
+```
 spy-cat-agency/
 ├── backend/          # FastAPI Python backend
 └── frontend/         # Next.js React frontend
-\`\`\`
+```
 
 ### 2. Backend Setup (Terminal 1)
 
-\`\`\`bash
+```bash
 # Navigate to backend directory
 cd backend
 
@@ -20,14 +20,14 @@ pip install -r requirements.txt
 
 # Start the FastAPI server
 python main.py
-\`\`\`
+```
 
 **Backend will run at:** http://localhost:8000
 - API Docs: http://localhost:8000/docs
 
 ### 3. Frontend Setup (Terminal 2)
 
-\`\`\`bash
+```bash
 # Navigate to frontend directory  
 cd frontend
 
@@ -36,7 +36,7 @@ npm install
 
 # Start the Next.js development server
 npm run dev
-\`\`\`
+```
 
 **Frontend will run at:** http://localhost:3000
 
@@ -83,6 +83,6 @@ npm run dev
 ---
 
 **Both servers must be running simultaneously for the application to work properly.**
-\`\`\`
+```
 
 ```txt file="" isHidden
