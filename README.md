@@ -3,6 +3,17 @@
 A full-stack web application for managing spy cats, missions, and targets. Built with FastAPI backend and Next.js frontend.
 
 
+## Screenshots
+
+<details>
+  <summary>Missions</summary>
+
+  <br />
+
+  <img width="1128" height="925" alt="Missions screenshot" src="https://github.com/user-attachments/assets/58ab3b45-d785-4c03-b489-c2e6137e2ed6" />
+
+</details>
+
 ## 🚀 Quick Start
 
 ### Prerequisites
