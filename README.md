@@ -11,17 +11,19 @@ A full-stack web application for managing spy cats, missions, and targets. Built
   <br />
 
   <img width="1128" height="925" alt="Missions screenshot" src="https://github.com/user-attachments/assets/58ab3b45-d785-4c03-b489-c2e6137e2ed6" />
-  
-  <br />
-
+</details>
+<details>
   <summary>Spy Cats</summary>
 
   <br />
 
   <img width="1116" height="552" alt="image" src="https://github.com/user-attachments/assets/70344134-83b1-49d8-beb6-4ac53530fa82" />
-
-
 </details>
+
+### Swagger
+
+👉 [Open Swagger UI](http://127.0.0.1:8000/docs)
+
 
 ## 🚀 Quick Start
 
