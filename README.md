@@ -37,34 +37,34 @@ A full-stack web application for managing spy cats, missions, and targets. Built
 
 Create the following directory structure and copy all the provided files:
 
-\`\`\`bash
+```bash
 mkdir spy-cat-agency
 cd spy-cat-agency
 mkdir backend frontend
 mkdir frontend/app frontend/components frontend/lib frontend/types
 mkdir frontend/app/missions
-\`\`\`
+```
 
 ### 2. Backend Setup (FastAPI)
 
 #### Install Python Dependencies
 
-\`\`\`bash
+```bash
 cd backend
 pip install -r requirements.txt
-\`\`\`
+```
 
 #### Start the Backend Server
 
-\`\`\`bash
+```bash
 python main.py
-\`\`\`
+```
 
 Or using uvicorn directly:
 
-\`\`\`bash
+```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
-\`\`\`
+```
 
 The backend will be available at: **http://localhost:8000**
 
@@ -75,16 +75,16 @@ The backend will be available at: **http://localhost:8000**
 
 #### Install Node.js Dependencies
 
-\`\`\`bash
+```bash
 cd frontend
 npm install
-\`\`\`
+```
 
 #### Start the Frontend Development Server
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 The frontend will be available at: **http://localhost:3000**
 
@@ -164,7 +164,7 @@ The application uses SQLite database (`spy_cats.db`) with the following tables:
 
 ### Backend Development
 
-\`\`\`bash
+```bash
 cd backend
 # Install dependencies
 pip install -r requirements.txt
@@ -174,11 +174,11 @@ uvicorn main:app --reload
 
 # Run tests (if you add them)
 pytest
-\`\`\`
+```
 
 ### Frontend Development
 
-\`\`\`bash
+```bash
 cd frontend
 # Install dependencies
 npm install
@@ -194,42 +194,42 @@ npm start
 
 # Lint code
 npm run lint
-\`\`\`
+```
 
 ## 🚨 Troubleshooting
 
 ### Backend Issues
 
 1. **Import Errors**
-   \`\`\`bash
+   ```bash
    pip install --upgrade pip
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 2. **Database Issues**
    - Delete `spy_cats.db` file and restart the server to recreate tables
 
 3. **Port Already in Use**
-   \`\`\`bash
+   ```bash
    uvicorn main:app --port 8001
-   \`\`\`
+   ```
 
 ### Frontend Issues
 
 1. **Node Modules Issues**
-   \`\`\`bash
+   ```bash
    rm -rf node_modules package-lock.json
    npm install
-   \`\`\`
+   ```
 
 2. **API Connection Issues**
    - Ensure backend is running on http://localhost:8000
    - Check CORS settings in backend main.py
 
 3. **Build Issues**
-   \`\`\`bash
+   ```bash
    npm run build
-   \`\`\`
+   ```
 
 ### Common Issues
 
@@ -255,7 +255,7 @@ npm run lint
 
 ### API Example
 
-\`\`\`bash
+```bash
 # Create a spy cat
 curl -X POST "http://localhost:8000/cats/" \
   -H "Content-Type: application/json" \
@@ -265,7 +265,7 @@ curl -X POST "http://localhost:8000/cats/" \
     "breed": "Persian",
     "salary": 75000
   }'
-\`\`\`
+```
 
 ## 🔐 Security Notes
 
